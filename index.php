@@ -112,7 +112,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='help')
+	if($pesan_datang('serius', 'serius?'))
 	{
 		
 		
