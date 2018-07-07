@@ -221,11 +221,6 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='bot @bye'))
-	{
-		$responses = $client->leaveGroup($groupId);
-		$responses->getRawBody();
-	}
 	if(strtolower($pesan_datang=='serius'))
 	{
 		
