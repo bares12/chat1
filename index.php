@@ -13,7 +13,8 @@ $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
-$profil = $client->profil($userId);
+$profil = $client->getProfile($userId);
+$displayName = $profile['displayName']
 $pesan_datang = $message['text'];
 //pesan bergambar
 
@@ -121,7 +122,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Heh '.$userId.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
+  'text' => 'Heh '.$displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
 )
 							)
 						);
