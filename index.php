@@ -77,7 +77,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='bunuhdiri')
+	if($pesan_datang=='bosen hidup?')
 	{
 		
 		$balas = array(
@@ -171,6 +171,49 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='udah mandi?')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'template',
+  'altText' => 'this is a buttons template',
+  'template' => 
+  array (
+    'type' => 'buttons',
+    'actions' => 
+    array (
+      0 => 
+      array (
+        'type' => 'message',
+        'label' => 'Udah',
+        'text' => 'Yakalii.. gua belom mandi kaya lu lu pada XD',
+      ),
+      1 => 
+      array (
+        'type' => 'message',
+        'label' => 'Belom',
+        'text' => 'Anjirr.. gua belom mandi lagih..',
+      ),
+      2 => 
+      array (
+        'type' => 'message',
+        'label' => 'Ragu',
+        'text' => 'Et.. gua udah mandi belom ya.. lupa gua asw :v',
+      ),
+    ),
+    'thumbnailImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/3789751/LINEStorePC/main@2x.png;compress=true',
+    'title' => 'Lu udah mandi?',
+    'text' => 'Jujur ye',
+  ),
+)
+							)
+						);
+				
+	}
 	if($pesan_datang=='key')
 	{
 		
@@ -191,7 +234,8 @@ array (
 
 [ Funchat Response ]
 
->bunuhdiri',
+>bosen hidup?
+>udah mandi?',
 )
 							)
 						);
