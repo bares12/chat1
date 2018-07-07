@@ -129,33 +129,6 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='baa')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  0 =>
-	array(
-		'type' => 'image',
-  		'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
-  		'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
-  		'animated' => false,
-		)
-  1 =>
-	array(
-		'type' => 'image',
-		'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
-		'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
-		'animated' => false,
-	)
-)
-							)
-						);
-				
-	}
 	if($pesan_datang=='key')
 	{
 		
