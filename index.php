@@ -142,6 +142,17 @@ array (
 )
 							)
 						);
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'image',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'animated' => true,
+)
+							)
+						);
 				
 	}
 	if($pesan_datang=='ea')
