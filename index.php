@@ -14,7 +14,7 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = $message['text'];
-$response = $client->getProfile($userId);
+$response = $client->profile($userId);
 if($response->isSucceeded())
 	$profile = $response->getJSONDecodedBody();
 	$displayName = $profile['displayName']
@@ -225,8 +225,8 @@ array (
 	}
 	if(strtolower($pesan_datang=='bot @bye'))
 	{
-		$response = $client->leaveGroup($groupId);
-		$response->getRawBody();
+		$responses = $client->leaveGroup($groupId);
+		$responses->getRawBody();
 	}
 	if(strtolower($pesan_datang=='serius'))
 	{
