@@ -7,6 +7,7 @@ $channelSecret = '4350db3555e5530136cd07b53fa4091a';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
+$groupId 	= $client->parseEvents()[0]['source']['groupId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
 $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
@@ -120,7 +121,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Heh '.$profile->displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
+  'text' => 'Heh '.$displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
 )
 							)
 						);
@@ -219,6 +220,10 @@ array (
 						);
 				
 	}
+	if(strtolower($pesan_datang=='bot @bye'))
+	{
+		$response = $client->leaveGroup($groupId);
+		$response->getRawBody();
 	if(strtolower($pesan_datang=='serius'))
 	{
 		
