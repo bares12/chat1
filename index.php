@@ -14,8 +14,7 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = $message['text'];
-$profile = $client->profil($userId);
-$displayname = $profile[0]['displayName'];
+$profile = $client->getProfile($userId);
 
 //pesan bergambar
 
