@@ -13,9 +13,11 @@ $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
-$profil = $client->getProfile($userId);
-$displayName = $profile['displayName']
 $pesan_datang = $message['text'];
+$response = $client->getProfile($userId);
+if($response->isSucceeded())
+	$profile = $response->getJSONDecodedBody();
+	$displayName = $profile['displayName']
 //pesan bergambar
 
 if($type=='join')
