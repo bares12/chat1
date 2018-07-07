@@ -65,18 +65,29 @@ array (
 	if($pesan_datang=='helplocation')
 	{
 		
-		$replychat = ' Hi';
-		$replychat .= '\n Help';
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
-array (
-  'type' => 'location',
-  'title' => '[ Help Message ]',
-  'address' => $replychat,
-  'latitude' => 35.65910807942214688637250219471752643585205078125,
-  'longitude' => 139.70372892916202545166015625,
-)
+{
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "message",
+        "label": "Yes",
+        "text": "Nah akhirnya gua mati juga!"
+      },
+      {
+        "type": "message",
+        "label": "No",
+        "text": "Yah kenapa gua nolak anjir.. Aturan mati bae!"
+      }
+    ],
+    "text": "Mau mati sekarang?"
+  }
+}
 							)
 						);
 				
