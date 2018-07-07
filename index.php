@@ -112,7 +112,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang==('serius', 'serius?'))
+	if($pesan_datang=='serius')
 	{
 		
 		
