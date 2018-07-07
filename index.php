@@ -40,7 +40,7 @@ if($message['type']=='text')
 							'messages' => array(
 array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'Send a template.',
   'template' => 
   array (
     'type' => 'carousel',
