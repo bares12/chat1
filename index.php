@@ -62,7 +62,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='helplocation')
+	if($pesan_datang=='bunuhdiri')
 	{
 		
 		$balas = array(
