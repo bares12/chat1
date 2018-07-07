@@ -13,13 +13,8 @@ $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
+$profile = $client->profile($userId);
 $pesan_datang = $message['text'];
-$response = $client->getProfile($userId);
-if ($response->isSucceeded())
-{
-	$profile = $response->getJSONDecodedBody();
-	$displayName = $profile['displayName'];
-}
 
 //pesan bergambar
 
@@ -126,8 +121,8 @@ array (
 							'replyToken' => $replyToken,														
 							'messages' => array(
 array (
-  'type' => 'text',
-  'text' => 'Heh '.$displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
+  'type' => "text",
+  'text' => "Heh ".$profile['displayName']." Lu tolol ato dongo sih? liat anjeng di profile lu!"
 )
 							)
 						);
