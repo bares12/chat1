@@ -137,9 +137,11 @@ array (
         array (
           0 => 
           array (
-            'type' => 'message',
+            'type' => 'image',
             'label' => 'Sticker 1',
-            'text' => 'Sticker 1',
+  	    'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  	    'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  	    'animated' => false,
           ),
           1 => 
           array (
