@@ -111,6 +111,24 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='myname')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'location',
+  'title' => '[ Your Name ]',
+  'address' => $profile->displayName,
+  'latitude' => 35.65910807942214688637250219471752643585205078125,
+  'longitude' => 139.70372892916202545166015625,
+)
+							)
+						);
+				
+	}
 	if($pesan_datang=='help')
 	{
 		
