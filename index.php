@@ -155,7 +155,6 @@ array (
   'type' => 'text',
   'text' => '[ Menu Command ]
 
->help
 >hi
 
 [ Sticker IMG ]
