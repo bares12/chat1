@@ -65,7 +65,7 @@ array (
 	if($pesan_datang=='helplocation')
 	{
 		
-		$replychat = 'Hi<br>';
+		$replychat = 'Hi<br/>';
 		$replychat .= 'Help';
 		$balas = array(
 							'replyToken' => $replyToken,														
