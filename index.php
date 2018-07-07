@@ -67,6 +67,22 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='help')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'audio',
+  'originalContentUrl' => 'https://files.fm/down.php?cf&i=kkkk4euu&n=help+suara.m4a',
+  'duration' => 4000,
+)
+							)
+						);
+				
+	}
 }
  
 $result =  json_encode($balas);
