@@ -129,6 +129,32 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='key')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'text',
+  'text' => '[ Menu Command ]
+
+>help
+>hi
+
+[ Sticker IMG ]
+
+>serius
+
+[ Funchat Response ]
+
+>bunuhdiri',
+)
+							)
+						);
+				
+	}
 }
  
 $result =  json_encode($balas);
