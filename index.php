@@ -76,7 +76,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'audio',
-  'originalContentUrl' => 'https://vocaroo.com/i/s1EnBlvWWa6H',
+  'originalContentUrl' => 'https://vocaroo.com/media_command.php?media=s1EnBlvWWa6H&command=download_mp3',
   'duration' => 4000,
 )
 							)
