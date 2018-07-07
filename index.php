@@ -31,22 +31,7 @@ if($type=='join')
 }
 if($message['type']=='text')
 {
-	if($pesan_datang=='Hi')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => $userId
-									)
-							)
-						);
-				
-	}
-	if($pesan_datang=='hi')
+	if($pesan_datang=='admin')
 	{
 		
 		
@@ -159,6 +144,22 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='ea')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'video',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
+)
+							)
+						);
+				
+	}
 	if($pesan_datang=='key')
 	{
 		
@@ -175,6 +176,7 @@ array (
 [ Sticker IMG ]
 
 >serius
+>ea
 
 [ Funchat Response ]
 
