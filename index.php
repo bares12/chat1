@@ -8,6 +8,7 @@ $channelSecret = '4350db3555e5530136cd07b53fa4091a';//sesuaikan
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
 $replyToken = $client->parseEvents()[0]['replyToken'];
+$type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
@@ -15,7 +16,7 @@ $profil = $client->profil($userId);
 $pesan_datang = $message['text'];
 //pesan bergambar
 
-if($message['type']=='join')
+if($type=='join')
 {
     $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik 'key' untuk lihat command!";
     $balas = array(
