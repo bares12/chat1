@@ -14,6 +14,20 @@ $messageid 	= $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
 $pesan_datang = $message['text'];
 //pesan bergambar
+
+if($message['type']=='join')
+{
+    $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik 'key' untuk lihat command!";
+    $balas = array(
+        'replyToken' => $replyToken,
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => $textjoin
+            )
+        )
+    );
+}
 if($message['type']=='text')
 {
 	if($pesan_datang=='hi')
