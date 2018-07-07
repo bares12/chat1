@@ -13,7 +13,6 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
-$profilname = $client->profil($userId).display_name;
 $pesan_datang = $message['text'];
 //pesan bergambar
 
@@ -166,36 +165,6 @@ array (
 [ Funchat Response ]
 
 >bunuhdiri',
-)
-							)
-						);
-				
-	}
-	if($pesan_datang=='myname')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'text',
-  'text' => $profilename,
-)
-							)
-						);
-				
-	}
-	if($pesan_datang=='mymid')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'text',
-  'text' => $userId,
 )
 							)
 						);
