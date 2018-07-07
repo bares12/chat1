@@ -121,7 +121,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Heh '.$displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
+  'text' => 'Heh '.$userId.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
 )
 							)
 						);
