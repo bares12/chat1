@@ -218,7 +218,7 @@ array (
 
 }
  
-$result =  json_encode($balas);
+$result =  json_decode($balas);
 //$result = ob_get_clean();
 
 file_put_contents('./balasan.json',$result);
