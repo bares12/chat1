@@ -85,7 +85,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'template',
-  'altText' => 'this is a confirm template',
+  'altText' => 'Send a template.',
   'template' => 
   array (
     'type' => 'confirm',
@@ -136,7 +136,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'template',
-  'altText' => 'this is a carousel template',
+  'altText' => 'Send a template.',
   'template' => 
   array (
     'type' => 'carousel',
@@ -257,7 +257,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'template',
-  'altText' => 'this is a buttons template',
+  'altText' => 'Send a template.',
   'template' => 
   array (
     'type' => 'buttons',
