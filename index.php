@@ -31,6 +31,21 @@ if($type=='join')
 }
 if($message['type']=='text')
 {
+	if($pesan_datang=='Hi')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => $userId
+									)
+							)
+						);
+				
+	}
 	if($pesan_datang=='hi')
 	{
 		
