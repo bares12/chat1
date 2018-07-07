@@ -28,10 +28,41 @@ if($message['type']=='text')
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Halo kontoll !'
-									)
+array (
+  'type' => 'template',
+  'altText' => 'this is a carousel template',
+  'template' => 
+  array (
+    'type' => 'carousel',
+    'actions' => 
+    array (
+    ),
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/a/U/aUVFabImIWVMqVCrLtkaAQ_r.jpg',
+        'title' => 'Admin',
+        'text' => 'Creator : Renn',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Admin 1',
+            'uri' => 'https://goo.gl/KL5D5y',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Admin 2',
+            'uri' => 'http://line.me/ti/p/~pashmt',
+          ),
+        ),
+      ),
+    ),
+  ),
+)
 							)
 						);
 				
