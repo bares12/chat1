@@ -224,6 +224,7 @@ array (
 	{
 		$response = $client->leaveGroup($groupId);
 		$response->getRawBody();
+	}
 	if(strtolower($pesan_datang=='serius'))
 	{
 		
