@@ -68,26 +68,30 @@ array (
 		$balas = array(
 							'replyToken' => $replyToken,														
 							'messages' => array(
-{
-  "type": "template",
-  "altText": "this is a confirm template",
-  "template": {
-    "type": "confirm",
-    "actions": [
-      {
-        "type": "message",
-        "label": "Yes",
-        "text": "Nah akhirnya gua mati juga!"
-      },
-      {
-        "type": "message",
-        "label": "No",
-        "text": "Yah kenapa gua nolak anjir.. Aturan mati bae!"
-      }
-    ],
-    "text": "Mau mati sekarang?"
-  }
-}
+array (
+  'type' => 'template',
+  'altText' => 'this is a confirm template',
+  'template' => 
+  array (
+    'type' => 'confirm',
+    'actions' => 
+    array (
+      0 => 
+      array (
+        'type' => 'message',
+        'label' => 'Yes',
+        'text' => 'Nah akhirnya gua mati juga!',
+      ),
+      1 => 
+      array (
+        'type' => 'message',
+        'label' => 'No',
+        'text' => 'Yah kenapa gua nolak anjir.. Aturan mati bae!',
+      ),
+    ),
+    'text' => 'Mau mati sekarang?',
+  ),
+)
 							)
 						);
 				
