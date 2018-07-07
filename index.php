@@ -13,6 +13,7 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $profil = $client->profil($userId);
+$profilname = $client->profil($userId).display_name;
 $pesan_datang = $message['text'];
 //pesan bergambar
 
@@ -111,113 +112,6 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='naga')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'template',
-  'altText' => 'this is a carousel template',
-  'template' => 
-  array (
-    'type' => 'carousel',
-    'actions' => 
-    array (
-    ),
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/Q/T/QT37jGdlWmuQNG0QY6aPww_r.jpg',
-        'text' => 'Naga Up Chat 1',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'image',
-            'label' => 'Sticker 1',
-  	    'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  	    'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  	    'animated' => false,
-          ),
-          1 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 2',
-            'text' => 'Sticker 2',
-          ),
-        ),
-      ),
-      1 => 
-      array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/Q/T/QT37jGdlWmuQNG0QY6aPww_r.jpg',
-        'text' => 'Naga Up Chat 2',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 3',
-            'text' => 'Sticker 3',
-          ),
-          1 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 4',
-            'text' => 'Sticker 4',
-          ),
-        ),
-      ),
-      2 => 
-      array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/Q/T/QT37jGdlWmuQNG0QY6aPww_r.jpg',
-        'text' => 'Naga Up Chat 3',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 5',
-            'text' => 'Sticker 5',
-          ),
-          1 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 6',
-            'text' => 'Sticker 6',
-          ),
-        ),
-      ),
-      3 => 
-      array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/Q/T/QT37jGdlWmuQNG0QY6aPww_r.jpg',
-        'text' => 'Naga Up Chat 4',
-        'actions' => 
-        array (
-          0 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 7',
-            'text' => 'Sticker 7',
-          ),
-          1 => 
-          array (
-            'type' => 'message',
-            'label' => 'Sticker 8',
-            'text' => 'Sticker 8',
-          ),
-        ),
-      ),
-    ),
-  ),
-)
-							)
-						);
-				
-	}
 	if($pesan_datang=='help')
 	{
 		
@@ -272,6 +166,36 @@ array (
 [ Funchat Response ]
 
 >bunuhdiri',
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='myname')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'text',
+  'text' => $profilename,
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='mymid')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'text',
+  'text' => $userId,
 )
 							)
 						);
