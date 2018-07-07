@@ -127,6 +127,83 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='setting')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'template',
+  'altText' => 'this is a carousel template',
+  'template' => 
+  array (
+    'type' => 'carousel',
+    'actions' => 
+    array (
+    ),
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
+        'text' => 'Open 1 :',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Camera',
+            'uri' => 'line://nv/camera',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Profile',
+            'uri' => 'line://nv/profile',
+          ),
+          2 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Timeline',
+            'uri' => 'line://nv/timeline',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
+        'text' => 'Open 2 :',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Pengaturan',
+            'uri' => 'line://nv/setting',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Check Device',
+            'uri' => 'line://nv/connectedDevice',
+          ),
+          2 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Bonus +',
+            'uri' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
+          ),
+        ),
+      ),
+    ),
+  ),
+)
+							)
+						);
+				
+	}
 	if($pesan_datang=='serius')
 	{
 		
@@ -225,7 +302,8 @@ array (
   'type' => 'text',
   'text' => '[ Menu Command ]
 
->hi
+>admin
+>setting
 
 [ Sticker IMG ]
 
