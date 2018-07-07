@@ -14,8 +14,7 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = $message['text'];
-$profil = $client->profil($userId);
-$profile = $profil->getJSONDecodedBody();
+$profile = $client->profil($userId);
 
 //pesan bergambar
 
@@ -123,7 +122,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Heh @'.$profile.' Lu tolol ato dongo sih? liat anjeng di profile lu!'
+  'text' => 'Heh @'.$groupId.' Lu tolol ato dongo sih? liat anjeng di profile lu!'
 )
 							)
 						);
