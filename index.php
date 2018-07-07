@@ -1,9 +1,4 @@
 <?php
-/*
-copyright @ medantechno.com
-2017
-
-*/
 
 require_once('./line_class.php');
 
