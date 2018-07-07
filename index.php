@@ -31,7 +31,7 @@ if($type=='join')
 }
 if($message['type']=='text')
 {
-	if($pesan_datang=='admin')
+	if(strtolower($pesan_datang=='admin'))
 	{
 		
 		
@@ -77,7 +77,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='bosen hidup?')
+	if(strtolower($pesan_datang=='bosen hidup?'))
 	{
 		
 		$balas = array(
@@ -111,7 +111,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='myname')
+	if(strtolower($pesan_datang=='myname'))
 	{
 		
 		
@@ -126,7 +126,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='help')
+	if(strtolower($pesan_datang=='help'))
 	{
 		
 		
@@ -142,7 +142,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='setting')
+	if(strtolower($pesan_datang=='setting'))
 	{
 		
 		
@@ -219,7 +219,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='serius')
+	if(strtolower($pesan_datang=='serius'))
 	{
 		
 		
@@ -247,7 +247,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='ea')
+	if(strtolower($pesan_datang=='ea'))
 	{
 		
 		
@@ -263,7 +263,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='udah mandi?')
+	if(strtolower($pesan_datang=='udah mandi?'))
 	{
 		
 		
@@ -306,7 +306,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='key')
+	if(strtolower($pesan_datang=='key'))
 	{
 		
 		
