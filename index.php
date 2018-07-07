@@ -65,6 +65,24 @@ array (
 	if($pesan_datang=='help')
 	{
 		
+		$replychat = 'Hi \nHelp';
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'location',
+  'title' => '[ Help Message ]',
+  'address' => $replychat,
+  'latitude' => 35.65910807942214688637250219471752643585205078125,
+  'longitude' => 139.70372892916202545166015625,
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='help')
+	{
+		
 		
 		$balas = array(
 							'replyToken' => $replyToken,														
