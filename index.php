@@ -13,7 +13,7 @@ $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
-$profile = $client->profile($userId);
+$profile = $client->profil($userId);
 $pesan_datang = $message['text'];
 
 //pesan bergambar
