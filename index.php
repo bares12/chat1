@@ -138,15 +138,19 @@ array (
 							'messages' => array(
 array (
   0 =>
-  	'type' => 'image',
-  	'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
-  	'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
-  	'animated' => false,
+	array(
+		'type' => 'image',
+  		'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
+  		'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510674/ANDROID/sticker.png;compress=true',
+  		'animated' => false,
+		)
   1 =>
-	'type' => 'image',
-	'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
-	'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
-	'animated' => false,
+	array(
+		'type' => 'image',
+		'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
+		'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/16510675/ANDROID/sticker.png;compress=true',
+		'animated' => false,
+	)
 )
 							)
 						);
