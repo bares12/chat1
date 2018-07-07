@@ -120,7 +120,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Your Name : '.$profile->displayName.'.',
+  'text' => 'Heh '.$profile->displayName.' Lu tolol ato dongo sih? liat anjeng di profile lu!',
 )
 							)
 						);
