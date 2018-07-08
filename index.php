@@ -151,7 +151,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='checkcuaca')
+	if($command=='checkcuaca')
 	{
 		
 		$resultcuaca = cuaca($options);
