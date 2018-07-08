@@ -14,7 +14,7 @@ $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = strtolower($message['text']);
-$profile = $client->profil($userId);
+$profil = $client->profil($userId);
 $textsplit = explode("|", $message['text']);
 
 $command = $textsplit[0];
@@ -145,7 +145,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'Heh @'.$groupId.' Lu tolol ato dongo sih? liat anjeng di profile lu!'
+  'text' => 'YourName @'.$profil->displayName
 )
 							)
 						);
