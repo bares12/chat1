@@ -15,8 +15,7 @@ $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = strtolower($message['text']);
 $profil = $client->profil($userId);
-$profile = $profil->getJSONDecodedBody();
-$displayname = $profile['displayName']
+$displayname = $profil['displayName']
 $textsplit = explode("|", $message['text']);
 
 $command = $textsplit[0];
