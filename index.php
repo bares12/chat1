@@ -145,7 +145,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'text',
-  'text' => 'YourName @'.$profil->displayName
+  'text' => 'YourName @'.$profil->statusMessage.' '
 )
 							)
 						);
