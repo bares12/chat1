@@ -287,30 +287,6 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='.')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://image.ibb.co/cPYBHT/20180708_122925.png',
-  'altText' => 'Send a imagemap.',
-  'baseSize' => 
-  array (
-    'width' => 1040,
-    'height' => 1040,
-  ),
-  'actions' => 
-  array (
-  ),
-)
-							)
-						);
-				
-	}
 	if($pesan_datang=='ea')
 	{
 		
