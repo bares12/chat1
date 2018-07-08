@@ -296,7 +296,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://www.fixpicture.org/medias/1531027526_tmp_download__2_.png_thumb.png',
+  'baseUrl' => 'https://image.ibb.co/cPYBHT/20180708_122925.png',
   'altText' => 'Send a imagemap.',
   'baseSize' => 
   array (
