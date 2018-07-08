@@ -296,7 +296,7 @@ array (
 							'messages' => array(
 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://akphoto1.ask.fm/455/495/947/-149996999-1tcneql-b6he194bgnjplfp/original/file.jpg',
+  'baseUrl' => 'https://www.fixpicture.org/medias/1531027526_tmp_download__2_.png_thumb.png',
   'altText' => 'Send a imagemap.',
   'baseSize' => 
   array (
