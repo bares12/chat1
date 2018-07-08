@@ -15,7 +15,7 @@ $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = strtolower($message['text']);
 $profile = $client->profil($userId);
-$textsplit = explode("|", strtolower($message['text']));
+$textsplit = explode("|", $message['text']);
 
 $command = $textsplit[0];
 $options = $textsplit[1];
@@ -282,6 +282,30 @@ array (
   'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
   'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
   'animated' => true,
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='.')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://akphoto1.ask.fm/455/495/947/-149996999-1tcneql-b6he194bgnjplfp/original/file.jpg',
+  'altText' => 'Send a imagemap.',
+  'baseSize' => 
+  array (
+    'width' => 1040,
+    'height' => 1040,
+  ),
+  'actions' => 
+  array (
+  ),
 )
 							)
 						);
