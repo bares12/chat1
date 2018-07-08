@@ -13,7 +13,7 @@ $type 		= $client->parseEvents()[0]['type'];
 $timestamp	= $client->parseEvents()[0]['timestamp'];
 $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
-$pesan_datang = $message['text'];
+$pesan_datang = strtolower($message['text']);
 $profile = $client->profil($userId);
 
 //pesan bergambar
@@ -33,7 +33,7 @@ if($type=='join')
 }
 if($message['type']=='text')
 {
-	if(strtolower($pesan_datang=='admin'))
+	if($pesan_datang=='admin')
 	{
 		
 		
@@ -79,7 +79,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='bosen hidup?'))
+	if($pesan_datang=='bosen hidup?')
 	{
 		
 		$balas = array(
@@ -113,7 +113,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='myname'))
+	if($pesan_datang=='myname')
 	{
 		
 		
@@ -128,7 +128,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='help'))
+	if($pesan_datang=='help')
 	{
 		
 		
@@ -144,7 +144,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='setting'))
+	if($pesan_datang=='setting')
 	{
 		
 		
@@ -221,7 +221,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='serius'))
+	if($pesan_datang=='serius')
 	{
 		
 		
@@ -249,7 +249,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='ea'))
+	if($pesan_datang=='ea')
 	{
 		
 		
@@ -265,7 +265,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='udah mandi?'))
+	if($pesan_datang=='udah mandi?')
 	{
 		
 		
@@ -308,7 +308,7 @@ array (
 						);
 				
 	}
-	if(strtolower($pesan_datang=='key'))
+	if($pesan_datang=='key')
 	{
 		
 		
