@@ -151,6 +151,21 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='checkcuaca')
+	{
+		
+		$resultcuaca = cuaca($options);
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+                array(
+                    'type' => 'text',
+                    'text' => $resultcuaca
+                )
+							)
+						);
+				
+	}
 	if($pesan_datang=='help')
 	{
 		
