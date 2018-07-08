@@ -15,8 +15,31 @@ $message 	= $client->parseEvents()[0]['message'];
 $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = strtolower($message['text']);
 $profile = $client->profil($userId);
+$textsplit = explode("|", strtolower($message['text']));
+
+$command = $textsplit[0];
+$options = $textsplit[1];
+if (count($textsplit) > 2) {
+    for ($i = 2; $i < count($textsplit); $i++) {
+        $options .= '+';
+        $options .= $textsplit[$i];
+    }
+}
 
 //pesan bergambar
+function cuaca($keyword) {
+    $uri = "http://api.openweathermap.org/data/2.5/weather?q=" . $keyword . ",ID&units=metric&appid=e172c2f3a3c620591582ab5242e0e6c4";
+    $response = Unirest\Request::get("$uri");
+    $json = json_decode($response->raw_body, true);
+    $resultcuaca = "Halo Kak ^_^ Ini ada Ramalan Cuaca Untuk Daerah ";
+    $resultcuaca .= $json['name'];
+    $resultcuaca .= " Dan Sekitarnya";
+    $resultcuaca .= "\n\nCuaca : ";
+    $resultcuaca .= $json['weather']['0']['main'];
+    $resultcuaca .= "\nDeskripsi : ";
+    $resultcuaca .= $json['weather']['0']['description'];
+    return $resultcuaca;
+}
 
 if($type=='join')
 {
