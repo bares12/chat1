@@ -16,7 +16,6 @@ $messageid 	= $client->parseEvents()[0]['message']['id'];
 $pesan_datang = strtolower($message['text']);
 $profil = $client->profil($userId);
 $textsplit = explode("|", $message['text']);
-
 $command = $textsplit[0];
 $options = $textsplit[1];
 if (count($textsplit) > 2) {
@@ -25,7 +24,6 @@ if (count($textsplit) > 2) {
         $options .= $textsplit[$i];
     }
 }
-
 //pesan bergambar
 function cuaca($keyword) {
     $uri = "http://api.openweathermap.org/data/2.5/weather?q=" . $keyword . ",ID&units=metric&appid=e172c2f3a3c620591582ab5242e0e6c4";
@@ -40,7 +38,6 @@ function cuaca($keyword) {
     $resultcuaca .= $json['weather']['0']['description'];
     return $resultcuaca;
 }
-
 if($type=='join')
 {
     $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik '/menu' untuk lihat command!";
@@ -76,7 +73,7 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/a/U/aUVFabImIWVMqVCrLtkaAQ_r.jpg',
+        'thumbnailImageUrl' => 'https://pm1.narvii.com/6448/76156a7706585cb6b463531e9aa42cdc7f6180fe_hq.jpg',
         'title' => 'Admin',
         'text' => 'Ini Adalah Kontak Admin',
         'actions' => 
@@ -202,8 +199,8 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
-        'text' => 'Setting :',
+        'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
+        'text' => 'Settings :',
         'actions' => 
         array (
           0 => 
@@ -229,7 +226,7 @@ array (
       1 => 
       array (
         'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
-        'text' => 'Setting :',
+        'text' => 'Settings :',
         'actions' => 
         array (
           0 => 
@@ -281,62 +278,6 @@ array (
   'type' => 'image',
   'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
   'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  'animated' => true,
-)
-							)
-						);
-				
-	}
-	if($pesan_datang=='sayang')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'image',
-  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  'animated' => true,
-)
-							)
-						);
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'image',
-  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
-  'animated' => true,
-)
-							)
-						);
-				
-	}
-	if($pesan_datang=='ayam')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'video',
-  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
-  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
-  'animated' => true,
-)
-							)
-						);
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-array (
-  'type' => 'video',
-  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
-  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
   'animated' => true,
 )
 							)
