@@ -322,19 +322,31 @@ array (
       array (
         'type' => 'message',
         'label' => 'Menu 1',
-        'text' => 'Yakalii.. gua belom mandi kaya lu lu pada XD',
+        'text' => 'Menu1',
       ),
       1 => 
       array (
         'type' => 'message',
         'label' => 'Menu 2',
-        'text' => 'Anjirr.. gua belom mandi lagih..',
+        'text' => 'Menu2',
       ),
       2 => 
       array (
         'type' => 'message',
         'label' => 'Menu 3',
-        'text' => 'Et.. gua udah mandi belom ya.. lupa gua asw :v',
+        'text' => 'Menu3',
+      ),
+      3 => 
+      array (
+        'type' => 'message',
+        'label' => 'About',
+        'text' => 'About',
+      ),
+      4 => 
+      array (
+        'type' => 'message',
+        'label' => 'Admin',
+        'text' => 'Admin',
       ),
     ),
     'thumbnailImageUrl' => 'https://img.monocle.com/radio/shows/the-menu-final-5718a9900140e.jpg?w=440&h=440',
