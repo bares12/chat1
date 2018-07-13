@@ -70,7 +70,7 @@ array (
   array (
     'type' => 'carousel',
     'actions' => 
-    array (
+    arraya (
     ),
     'columns' => 
     array (
@@ -78,7 +78,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
         'title' => 'Admin',
-        'text' => 'Creator : Aked',
+        'text' => 'Hubungin Admin Apabila Ada Masalah',
         'actions' => 
         array (
           0 => 
@@ -87,10 +87,17 @@ array (
             'label' => 'Admin 1',
             'uri' => 'https://bit.ly/2J3ywc3',
           ),
-          1 => 
+      1 => 
+      array (
+        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
+        'title' => 'Staff',
+        'text' => 'Silakan Ke Admin',
+        'actions' => 
+        array (
+          0 => 
           array (
             'type' => 'uri',
-            'label' => 'Admin 2',
+            'label' => 'Kosong',
             'uri' => 'https://bit.ly/2J3ywc3',
           ),
         ),
@@ -182,7 +189,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='setting')
+	if($pesan_datang=='profile')
 	{
 		
 		
@@ -203,7 +210,7 @@ array (
       0 => 
       array (
         'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
-        'text' => 'Open 1 :',
+        'text' => 'Setting :',
         'actions' => 
         array (
           0 => 
@@ -229,7 +236,7 @@ array (
       1 => 
       array (
         'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
-        'text' => 'Open 2 :',
+        'text' => 'Setting :',
         'actions' => 
         array (
           0 => 
@@ -281,6 +288,62 @@ array (
   'type' => 'image',
   'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
   'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'animated' => true,
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='sayang')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'image',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'animated' => true,
+)
+							)
+						);
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'image',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9528/LINEStorePC/main@2x.png;compress=true',
+  'animated' => true,
+)
+							)
+						);
+				
+	}
+	if($pesan_datang=='ayam')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'video',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
+  'animated' => true,
+)
+							)
+						);
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'video',
+  'originalContentUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
+  'previewImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/9409/IOS/main_animation@2x.png;compress=true',
   'animated' => true,
 )
 							)
@@ -347,6 +410,12 @@ array (
         'type' => 'message',
         'label' => 'Admin',
         'text' => 'Admin',
+      ),
+      5 => 
+      array (
+        'type' => 'message',
+        'label' => 'Setting',
+        'text' => 'Profile',
       ),
     ),
     'thumbnailImageUrl' => 'https://img.monocle.com/radio/shows/the-menu-final-5718a9900140e.jpg?w=440&h=440',
