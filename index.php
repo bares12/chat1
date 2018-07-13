@@ -2,8 +2,8 @@
 
 require_once('./line_class.php');
 
-$channelAccessToken = '0MZ23nJcb0Rtcn4jkjdm/RjNS07Dx7zj34q2SE84mlbZbrtoGunYlxb6jDIvcYisd+gyBuzGROVx0JGTPoi3DWCQHbm8YJ5aycbWf4gAL7RGx+/b/J2Kkb75Vh7Qo2NmGwi3MDQzUYPAFmbocQypWAdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '4350db3555e5530136cd07b53fa4091a';//sesuaikan
+$channelAccessToken = 'W87tpLbjGorG1Oinv3DWM8XdNriJ2NsCmnos6VaI6D5obHTIM6NkC/UUMN24XdpAduwc5YDuFV45gQqRxVt3Ibu1O4CgRbCNJU+lru5RumhP0vYeFMgtycbiNOz3gQGwsNgGjXloAaqV1rj5S4ma0QdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = '941b173d5a8b59b29b2bc1d00657f826';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 $userId 	= $client->parseEvents()[0]['source']['userId'];
@@ -76,22 +76,22 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/a/U/aUVFabImIWVMqVCrLtkaAQ_r.jpg',
+        'thumbnailImageUrl' => 'https://drive.google.com/open?id=1Vg4XsKDTP15DxgUkThc3rKdvnAJOpJD2',
         'title' => 'Admin',
-        'text' => 'Creator : Renn',
+        'text' => 'Creator : Aked',
         'actions' => 
         array (
           0 => 
           array (
             'type' => 'uri',
             'label' => 'Admin 1',
-            'uri' => 'https://goo.gl/KL5D5y',
+            'uri' => 'https://bit.ly/2J3ywc3',
           ),
           1 => 
           array (
             'type' => 'uri',
             'label' => 'Admin 2',
-            'uri' => 'http://line.me/ti/p/~pashmt',
+            'uri' => 'https://bit.ly/2J3ywc3',
           ),
         ),
       ),
