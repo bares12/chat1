@@ -43,7 +43,7 @@ function cuaca($keyword) {
 
 if($type=='join')
 {
-    $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik 'key' untuk lihat command!";
+    $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik '/menu' untuk lihat command!";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -303,7 +303,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='udah mandi?')
+	if($pesan_datang=='/menu')
 	{
 		
 		
@@ -337,9 +337,9 @@ array (
         'text' => 'Et.. gua udah mandi belom ya.. lupa gua asw :v',
       ),
     ),
-    'thumbnailImageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/product/3789751/LINEStorePC/main@2x.png;compress=true',
-    'title' => 'Lu udah mandi?',
-    'text' => 'Jujur ye',
+    'thumbnailImageUrl' => 'https://admin-official.line.me/12368378/account/profile.jpg;compress=true',
+    'title' => 'Ini Sebuah Menu',
+    'text' => 'Gunakan Dengan Baik dan Benar',
   ),
 )
 							)
