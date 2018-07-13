@@ -136,7 +136,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='myname')
+	if($pesan_datang=='me')
 	{
 		
 		
