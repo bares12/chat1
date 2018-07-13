@@ -87,14 +87,7 @@ array (
             'label' => 'Admin 1',
             'uri' => 'https://bit.ly/2J3ywc3',
           ),
-      1 => 
-      array (
-        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
-        'title' => 'Staff',
-        'text' => 'Silakan Ke Admin',
-        'actions' => 
-        array (
-          0 => 
+          1 => 
           array (
             'type' => 'uri',
             'label' => 'Kosong',
