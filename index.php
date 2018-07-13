@@ -337,7 +337,7 @@ array (
         'text' => 'Et.. gua udah mandi belom ya.. lupa gua asw :v',
       ),
     ),
-    'thumbnailImageUrl' => 'https://admin-official.line.me/12368378/account/profile.jpg;compress=true',
+    'thumbnailImageUrl' => 'https://admin-official.line.me/12368378/account/profile.jpg',
     'title' => 'Ini Sebuah Menu',
     'text' => 'Gunakan Dengan Baik dan Benar',
   ),
