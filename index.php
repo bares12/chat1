@@ -70,15 +70,15 @@ array (
   array (
     'type' => 'carousel',
     'actions' => 
-    arraya (
+    array (
     ),
     'columns' => 
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
+        'thumbnailImageUrl' => 'https://u1.photofunia.com/1/results/a/U/aUVFabImIWVMqVCrLtkaAQ_r.jpg',
         'title' => 'Admin',
-        'text' => 'Hubungin Admin Apabila Ada Masalah',
+        'text' => 'Ini Adalah Kontak Admin',
         'actions' => 
         array (
           0 => 
@@ -90,7 +90,7 @@ array (
           1 => 
           array (
             'type' => 'uri',
-            'label' => 'Kosong',
+            'label' => 'Admin 2',
             'uri' => 'https://bit.ly/2J3ywc3',
           ),
         ),
