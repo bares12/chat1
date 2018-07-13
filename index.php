@@ -76,7 +76,7 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://drive.google.com/open?id=1Vg4XsKDTP15DxgUkThc3rKdvnAJOpJD2',
+        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
         'title' => 'Admin',
         'text' => 'Creator : Aked',
         'actions' => 
@@ -202,7 +202,7 @@ array (
     array (
       0 => 
       array (
-        'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-RiTL3rmVfnXoWo5im1Ma8kWvazETI87xAiRXSz9ZjRIgC0yF',
+        'thumbnailImageUrl' => 'https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/3/3f/25fbcacf313fc8eba494e4cb84fde6d0--art-drawings-anime-guys.jpg/revision/latest/scale-to-width-down/384?cb=20170802144800',
         'text' => 'Open 1 :',
         'actions' => 
         array (
