@@ -321,23 +321,23 @@ array (
       0 => 
       array (
         'type' => 'message',
-        'label' => 'Udah',
+        'label' => 'Menu 1',
         'text' => 'Yakalii.. gua belom mandi kaya lu lu pada XD',
       ),
       1 => 
       array (
         'type' => 'message',
-        'label' => 'Belom',
+        'label' => 'Menu 2',
         'text' => 'Anjirr.. gua belom mandi lagih..',
       ),
       2 => 
       array (
         'type' => 'message',
-        'label' => 'Ragu',
+        'label' => 'Menu 3',
         'text' => 'Et.. gua udah mandi belom ya.. lupa gua asw :v',
       ),
     ),
-    'thumbnailImageUrl' => 'https://admin-official.line.me/12368378/account/profile.jpg',
+    'thumbnailImageUrl' => 'https://img.monocle.com/radio/shows/the-menu-final-5718a9900140e.jpg?w=440&h=440',
     'title' => 'Ini Sebuah Menu',
     'text' => 'Gunakan Dengan Baik dan Benar',
   ),
