@@ -277,27 +277,27 @@ array (
       0 => 
       array (
         'thumbnailImageUrl' => 'https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Cute-Anime-Couple-HD-Picture-PIC-WPE0010856.jpg',
-        'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'title' => '[DK] BOT',
+        'text' => '[DK] BOT For You',
         'actions' => 
         array (
           0 => 
           array (
             'type' => 'uri',
-            'label' => 'Camera',
-            'uri' => 'line://nv/camera',
+            'label' => 'Welcome',
+            'text' => 'Welcome',
           ),
           1 => 
           array (
             'type' => 'uri',
-            'label' => 'Profile',
-            'uri' => 'line://nv/profile',
+            'label' => 'Owner Grup',
+            'text' => 'Admin',
           ),
           2 => 
           array (
             'type' => 'uri',
-            'label' => 'Timeline',
-            'uri' => 'line://nv/timeline',
+            'label' => 'Profile',
+            'text' => 'Profile',
           ),
         ),
       ),
@@ -305,7 +305,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Cute-Anime-Couple-HD-Picture-PIC-WPE0010856.jpg',
         'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'text' => 'Tinggal Klik Saja!',
         'actions' => 
         array (
           0 => 
@@ -357,7 +357,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://www.geek.com/wp-content/uploads/2017/02/sailormoon1-625x352.jpg',
         'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'text' => 'Tinggal Klik Saja!',
         'actions' => 
         array (
           0 => 
@@ -384,7 +384,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://www.geek.com/wp-content/uploads/2017/02/sailormoon1-625x352.jpg',
         'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'text' => 'Tinggal Klik Saja!',
         'actions' => 
         array (
           0 => 
@@ -436,7 +436,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEHjyJgKPMf1EjKpNxboSdNN10Qs0AijIuH1gMP1CKusXSiDVUog',
         'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'text' => 'Tinggal Klik Saja!',
         'actions' => 
         array (
           0 => 
@@ -463,7 +463,7 @@ array (
       array (
         'thumbnailImageUrl' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEHjyJgKPMf1EjKpNxboSdNN10Qs0AijIuH1gMP1CKusXSiDVUog',
         'title' => 'Ini Sebuah Menu',
-        'text' => 'Settings :',
+        'text' => 'Tinggal Klik Saja!',
         'actions' => 
         array (
           0 => 
