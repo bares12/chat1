@@ -268,7 +268,7 @@ array (
   'altText' => 'Ini Menu',
   'template' => 
   array (
-    'type' => 'carousel',
+    'type' => 'buttons',
     'actions' => 
     array (
     ),
