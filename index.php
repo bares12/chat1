@@ -40,7 +40,7 @@ function cuaca($keyword) {
 }
 if($type=='join')
 {
-    $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik '/menu' untuk lihat command!";
+    $textjoin = "Terima kasih telah mengundang saya ke grup!\nKetik '/keyword' untuk lihat command!";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -537,7 +537,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='/menu')
+	if($pesan_datang=='/keyword')
 	{
 		
 		
