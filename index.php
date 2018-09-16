@@ -268,7 +268,7 @@ array (
   'altText' => 'Ini Menu',
   'template' => 
   array (
-    'type' => 'carousel',
+    'type' => 'buttons',
     'actions' => 
     array (
     ),
@@ -283,19 +283,19 @@ array (
         array (
           0 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Welcome',
             'text' => 'Welcome',
           ),
           1 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Owner Grup',
             'text' => 'Admin',
           ),
           2 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Profile',
             'text' => 'Profile',
           ),
@@ -310,19 +310,19 @@ array (
         array (
           0 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Pengaturan',
             'text' => 'line://nv/setting',
           ),
           1 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Check Device',
             'text' => 'line://nv/connectedDevice',
           ),
           2 => 
           array (
-            'type' => 'uri',
+            'type' => 'message',
             'label' => 'Bonus +',
             'text' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
           ),
