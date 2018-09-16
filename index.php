@@ -268,7 +268,7 @@ array (
   'altText' => 'Ini Menu',
   'template' => 
   array (
-    'type' => 'buttons',
+    'type' => 'carousel',
     'actions' => 
     array (
     ),
@@ -283,21 +283,21 @@ array (
         array (
           0 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Welcome',
-            'text' => 'Welcome',
+            'uri' => 'Welcome',
           ),
           1 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Owner Grup',
-            'text' => 'Admin',
+            'uri' => 'Admin',
           ),
           2 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Profile',
-            'text' => 'Profile',
+            'uri' => 'Profile',
           ),
         ),
       ),
@@ -310,21 +310,21 @@ array (
         array (
           0 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Pengaturan',
-            'text' => 'line://nv/setting',
+            'uri' => 'line://nv/setting',
           ),
           1 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Check Device',
-            'text' => 'line://nv/connectedDevice',
+            'uri' => 'line://nv/connectedDevice',
           ),
           2 => 
           array (
-            'type' => 'message',
+            'type' => 'uri',
             'label' => 'Bonus +',
-            'text' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
+            'uri' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
           ),
         ),
       ),
