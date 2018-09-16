@@ -304,27 +304,27 @@ array (
       1 => 
       array (
         'thumbnailImageUrl' => 'https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Cute-Anime-Couple-HD-Picture-PIC-WPE0010856.jpg',
-        'title' => 'Ini Sebuah Menu',
-        'text' => 'Tinggal Klik Saja!',
+        'title' => '[DK] BOT',
+        'text' => '[DK] BOT For You',
         'actions' => 
         array (
           0 => 
           array (
             'type' => 'uri',
             'label' => 'Pengaturan',
-            'uri' => 'line://nv/setting',
+            'text' => 'line://nv/setting',
           ),
           1 => 
           array (
             'type' => 'uri',
             'label' => 'Check Device',
-            'uri' => 'line://nv/connectedDevice',
+            'text' => 'line://nv/connectedDevice',
           ),
           2 => 
           array (
             'type' => 'uri',
             'label' => 'Bonus +',
-            'uri' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
+            'text' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
           ),
         ),
       ),
