@@ -256,7 +256,7 @@ array (
 						);
 				
 	}
-	if($pesan_datang=='menu3')
+	if($pesan_datang=='menu1')
 	{
 		
 		
