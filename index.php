@@ -256,6 +256,83 @@ array (
 						);
 				
 	}
+	if($pesan_datang=='menu1')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+array (
+  'type' => 'template',
+  'altText' => 'Send a template.',
+  'template' => 
+  array (
+    'type' => 'carousel',
+    'actions' => 
+    array (
+    ),
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'thumbnailImageUrl' => 'https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Cute-Anime-Couple-HD-Picture-PIC-WPE0010856.jpg',
+        'text' => 'Settings :',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Camera',
+            'uri' => 'line://nv/camera',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Profile',
+            'uri' => 'line://nv/profile',
+          ),
+          2 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Timeline',
+            'uri' => 'line://nv/timeline',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'thumbnailImageUrl' => 'https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Cute-Anime-Couple-HD-Picture-PIC-WPE0010856.jpg',
+        'text' => 'Settings :',
+        'actions' => 
+        array (
+          0 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Pengaturan',
+            'uri' => 'line://nv/setting',
+          ),
+          1 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Check Device',
+            'uri' => 'line://nv/connectedDevice',
+          ),
+          2 => 
+          array (
+            'type' => 'uri',
+            'label' => 'Bonus +',
+            'uri' => 'https://pbs.twimg.com/profile_images/946287919869829120/smZ-09vH_400x400.jpg',
+          ),
+        ),
+      ),
+    ),
+  ),
+)
+							)
+						);
+				
+	}
 	if($pesan_datang=='serius')
 	{
 		
